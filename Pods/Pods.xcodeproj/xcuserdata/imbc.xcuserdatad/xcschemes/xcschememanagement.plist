@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-selfie_Music.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-selfie_MusicTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-selfie_MusicUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ProjectOxfordFace.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>youtube-ios-player-helper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>46F735765A3A6849FF8F67783E61756E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A209C4714CAC94145C0ABF57BD57E9C0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF315B6838D5E14A5626ABC0AEDCF13E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B605FD4E667C3F7022A8EC0E33F97CBF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1044E31AA64AA79DE50C25C2B7812DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

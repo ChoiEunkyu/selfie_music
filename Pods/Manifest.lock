@@ -1,0 +1,15 @@
+PODS:
+  - ProjectOxfordFace (1.3.2)
+  - youtube-ios-player-helper (0.1.6)
+
+DEPENDENCIES:
+  - ProjectOxfordFace
+  - youtube-ios-player-helper (~> 0.1.4)
+
+SPEC CHECKSUMS:
+  ProjectOxfordFace: c6e50e9f1740036229374944226536882d4217f9
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
+
+PODFILE CHECKSUM: b869bf28febca9e1d5edd256b816fce9fdf58ec8
+
+COCOAPODS: 1.2.1

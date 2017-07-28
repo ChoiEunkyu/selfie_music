@@ -1,0 +1,1100 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004CD3A6574BFA9AB3D0FC7773D8AF8E /* MPOPersonFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 305D368F246E91F5352292159E92E4CF /* MPOPersonFace.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		03477B80E9FD62EFF63570D77EDCE396 /* MPOPersonGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE8F61DBEFF8CAEA74A18AC3AE7F1F7 /* MPOPersonGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		053868D848F28C45AA905C9A3B5837DB /* MPOMakeup.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D52D105C4C8DD2D84EA40C99FCB915A /* MPOMakeup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12ED8E8D6695FFDDD7BF8E6BDAA6BFCD /* MPOCandidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B7877148BBEB39834FAC9037AF24D8 /* MPOCandidate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		185DB6CA8F184DB6CFDD0127FC08429F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1EC4AF9C3C7096C516B9D5C45569527E /* MPOAddPersistedFaceResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5B7FD38A4355A852421CC75B51496 /* MPOAddPersistedFaceResult.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		20406EDA3E447446A799F695C629D8AB /* Pods-selfie_Music-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C87179F528AC2F2B95B60A5F63F0FF81 /* Pods-selfie_Music-dummy.m */; };
+		23076935402AE4FD73BCF944708988DE /* MPOFaceAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AAD2769EF2F7C075979C72DAFBFEBF1 /* MPOFaceAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		258A7FF4B7A88406A65ABC5B04580103 /* MPOFaceMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = F6C71069E9CCBFAB73F576706FDC7295 /* MPOFaceMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D80256FF5F0C5A7389C94A32BE740B3 /* MPOMakeup.m in Sources */ = {isa = PBXBuildFile; fileRef = 128FC6DB38ED1C8B6FF9331299D4EAA9 /* MPOMakeup.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		30D7438560542440C96B807821B97CFB /* MPOCreatePersonResult.h in Headers */ = {isa = PBXBuildFile; fileRef = AEB1D4F7213955034393F3C527E508B4 /* MPOCreatePersonResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		342E4163CC3A651302AA7891078A6C65 /* MPOFaceList.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FB0E14613DCB55CB0BE46EF9CFD7EC /* MPOFaceList.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		352D3425C382C5B5FBB1A25FBD136EA9 /* MPOFaceServiceClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E173E19A787968564317E58EC831DD3 /* MPOFaceServiceClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3860F599D1DEEC237C45A675FD535CAE /* MPOFaceHeadPose.h in Headers */ = {isa = PBXBuildFile; fileRef = CE2871C41F8ED33036C64C6642C0D875 /* MPOFaceHeadPose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ED2281D0F9375BE8B2F156207E4635A /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0C5D38B694CB998573E6C7B4D8AE21 /* YTPlayerView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3EE5C43141B336DD781A2DA01987EEF6 /* MPOVerifyResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D1FD7AC93195866C1E53F60F3A31E8 /* MPOVerifyResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		403FDF9E069BF968FD785DEBCE9C6B04 /* MPOPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = 213866A173744B6D12F6B0A4ABBACAC2 /* MPOPerson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		415CDE423D4B65FA8843247AA814D052 /* MPOFaceEmotion.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E77A5C9D2E3FA3D1AACDB8A5961C85 /* MPOFaceEmotion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		419EE4A2FB6926073163A3ECAAC12CBD /* MPOPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC8A8D24EF34FA28AEAA84FFA109C3D /* MPOPerson.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		422D42FCEAC096147AD5B1235832A66B /* MPOFaceMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D4A3819CFBEF42154D3C7E1CDB7C6 /* MPOFaceMetadata.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4239ACC66B68D7DE0E14E518AFB13196 /* ProjectOxfordFace-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5477CD13E1818C3C696014DF484FEDE /* ProjectOxfordFace-dummy.m */; };
+		45F2ADB807AE843D6761C27B8AFB9BDF /* MPOSimilarFace.h in Headers */ = {isa = PBXBuildFile; fileRef = BFFE77A1875CF2DD507921F3C79D2086 /* MPOSimilarFace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4851F5D0B9BBB5714322498F9732858C /* MPOBlur.h in Headers */ = {isa = PBXBuildFile; fileRef = B25DD2E5455763A238764630029D1394 /* MPOBlur.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A307BF8710636C9756F04FA8490BA78 /* MPOIdentifyResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B9C36A4129D8B3EEDD987D994BC143 /* MPOIdentifyResult.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4C5394AEB53BCC36DC575D5E3D6AF569 /* MPOFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 015FA41BAECC10D54D3AA7F57B45B578 /* MPOFace.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4E8F0E0E8FA7E8D90C01EF88A2C072B0 /* MPOHair.h in Headers */ = {isa = PBXBuildFile; fileRef = F9103C01209443163D7F0ADC09661D28 /* MPOHair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EF143084C8EBF8E76E13D8A0AAC1672 /* MPOFaceLandmarks.h in Headers */ = {isa = PBXBuildFile; fileRef = 562447A9ED3408E0D81A367F543E5D05 /* MPOFaceLandmarks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50142D6ED15719A135A74D96712C10D1 /* MPOCandidate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B006A42115573A4007524E870DE15D6 /* MPOCandidate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		521EAA3C4962BF21E11DB34AB3C70161 /* MPONoise.m in Sources */ = {isa = PBXBuildFile; fileRef = C661E44C67A4EC16CE7FD0E7427ABD4A /* MPONoise.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5A79E0F2F403ECDA980314AA24D3D7A6 /* MPOAccessories.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D5A3D998B287D0A8B903B7B8FB0714 /* MPOAccessories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C487D189FBD1990E6D45C51EB6E2E63 /* YTPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F52581874B650CC4CA67419B2102CB /* YTPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E39296A43550F77246E72BA37609C84 /* MPOFaceEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = D6123EFB6F44107FBDB283C13E6FEBDF /* MPOFaceEmotion.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5F30FC104555D8A9300E1CECEB502840 /* MPOFaceHeadPose.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6CC012B33B98367D9E6294CB5F6249 /* MPOFaceHeadPose.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		60B0397A24916B10CF2972290A1BACC9 /* MPOFacialHair.h in Headers */ = {isa = PBXBuildFile; fileRef = 82B83CB2CD720488B8641F5B390F34D7 /* MPOFacialHair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6365C5F37EC22ADF3B738CD7B6822AA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		653D2A12BAB9B0CA66302B39BD1564E4 /* MPOHair.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B556B1943320274EEA5FED6B1B5AEE3 /* MPOHair.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		69C8DA90FAE82C62ED3982B60E9A9F10 /* MPOFacialHair.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDEA70A39824E96ACE7D18822CD05B /* MPOFacialHair.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		72482C5F892A74A88CD9B7B77E086B8F /* MPOFaceLandmarks.m in Sources */ = {isa = PBXBuildFile; fileRef = A566B59B1B6116AC8466DA97F8B584C2 /* MPOFaceLandmarks.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		793235A4311B6665015924BBD001CEDD /* MPONoise.h in Headers */ = {isa = PBXBuildFile; fileRef = C332019658C61488D374689208ACC1EE /* MPONoise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AA7EF902918732CF51E08406F4A98AA /* MPOFaceListMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = E27F1BCB208C39E001C6B82B0BE3D4C1 /* MPOFaceListMetadata.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7E5D46227B4FC3CAB23B1D4BD408D1B9 /* MPOPersonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6B5F2141371AD10DA7BA3754FC6A99 /* MPOPersonGroup.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8755955B920C3810D700354B6C9A28BC /* MPOIdentifyResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 459C6643D05216BF74F153BBA7C9C6EF /* MPOIdentifyResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C23779BE5425DC0810CE75FD50DD4B9 /* MPOFaceFeatureCoordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DEECAA5507502DCF1433E3464270999 /* MPOFaceFeatureCoordinate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DA566471DEF03594A769B7547C62DE7 /* MPOExposure.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BCD6A68BB2A23DE8F0118692215BFA /* MPOExposure.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		92A2CE566A3514F899E4323286F00922 /* MPOGroupResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB7599EDF40776E38C7F1677B72C753 /* MPOGroupResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97795713D169A504FFFC540C43D2A71E /* MPOExposure.h in Headers */ = {isa = PBXBuildFile; fileRef = E38ED8BCC7A35FDE8E5CB70DC99F3ACD /* MPOExposure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ADBFA726CFCCABDE0187D980657579F /* MPOFaceFeatureCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1616875E168A8CAFAE44E6D94A6B05C /* MPOFaceFeatureCoordinate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A260B45A87422953FC0866EC947F99FF /* MPOFaceList.h in Headers */ = {isa = PBXBuildFile; fileRef = 61BF2BB4D7849BF9DEAA5374289F1B44 /* MPOFaceList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA1C2E7583E3FAEF57200990E6F32BEE /* MPOFaceSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A4B2C5E1DE67327DF8538DCA36C2A6 /* MPOFaceSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AED0176A08BCB672CD8373A072F5BB06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B48CD686DC11F68CE133BF5834AA7AB0 /* MPOFaceServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F7858DF8A986D4461EB57A63A9F0260F /* MPOFaceServiceClient.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B65845AAF36A712AB27AF0BD571E6C11 /* Pods-selfie_MusicTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D828700087E2A29C3D40BF5751A337 /* Pods-selfie_MusicTests-dummy.m */; };
+		B8AC2BF95978353EA7F54CDBF9000F83 /* MPOBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 0293513648503E24A06194126749FCD1 /* MPOBlur.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BC579DB98C254D9CB59AF340D11F0691 /* MPOSimilarFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 234730E41C335FD3CAC723B8824CFD53 /* MPOSimilarFace.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BE4BF5283EC255B07EF4BC7A25B3262B /* MPOCreatePersonResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 9225D3CB3EBCF2DFD16AC447BB0ECBEA /* MPOCreatePersonResult.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BF4DEDA12F3308357646A1980F635F69 /* MPOAccessories.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5FD4C924B0E50DDCA23ED9B33EEE69 /* MPOAccessories.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C0C5DFE2B74DBC8DD7F9EF522028F93F /* MPOFaceAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 308204F5D5187B07171BF6DB11B292E8 /* MPOFaceAttributes.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C3220B52C397B51452616829EA76F9E9 /* MPOFaceListMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = B10CA23A01D7127577B19654DA733341 /* MPOFaceListMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C717CD81E881B34440D2D58408522F5F /* MPOVerifyResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A0C11157B9995A9C0130A4F697D4FB /* MPOVerifyResult.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C7A64A7C7C90FE5FB84A1B5F3BAEAF83 /* MPOOcclusion.h in Headers */ = {isa = PBXBuildFile; fileRef = 56FAC398EAEF3149810F967C98110BDE /* MPOOcclusion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAE04DF187874EFFFF1E4EEE4C484878 /* MPOFace.h in Headers */ = {isa = PBXBuildFile; fileRef = 976173ECC6FBC3B66BB4EB8D177B74E0 /* MPOFace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE22482BD9580013C2469431480C623C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E073E899A4A9E53F63F46BD427176C1B /* MPOGroupResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 8284414D5C9578199D20992A31A3792E /* MPOGroupResult.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E44944AE7793D883EF4EF2FC6AD7B406 /* MPOAddPersistedFaceResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ECBB425AB4BE24DE3832262E6CD3970 /* MPOAddPersistedFaceResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA4C52E5A7E7E2CFCB1F97D1D07B7D52 /* Pods-selfie_MusicUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D46E9AE5FA3D4626348EF20CAD9F46 /* Pods-selfie_MusicUITests-dummy.m */; };
+		EB71520D8FBBB14DE1530CE2D0636708 /* MPOTrainingStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = FA9DF746CDC80D75E03D07750AF08A40 /* MPOTrainingStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBFC04C113DF249E345C7456F7D05848 /* MPOOcclusion.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CD0C12C6E402B16419DDBB37D49524 /* MPOOcclusion.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EF98AFBA12DAA46B9FA2B8498192ECD7 /* youtube-ios-player-helper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D2A3B091FC4E19D88E1A8954D2E019 /* youtube-ios-player-helper-dummy.m */; };
+		F2EE8874A6A6B9F9B11A58D2786C59FC /* MPOPersonFace.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC87329F995FAF583ADA56BE0FD12DB /* MPOPersonFace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F341EF26DD8A944F2E683DF8789FA48F /* MPOFaceRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C54EF849EB5BD1DC8B82E63C2F64BA /* MPOFaceRectangle.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F5341CBD2B1E497DD8BE0754F6945ABE /* MPOTrainingStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 9747907C9E385E67FDD34ABD759F3400 /* MPOTrainingStatus.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F9013BF6C49B0D7D780525822BF5D204 /* MPOFaceRectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F32D0048DBA8B7D080ACCBEEA8C2968 /* MPOFaceRectangle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAF205DD54A1E95216AA6458103B3FD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9654F32306CA6E280B166BE48F2F71A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F735765A3A6849FF8F67783E61756E;
+			remoteInfo = ProjectOxfordFace;
+		};
+		B30F1D05EF252568D1FCA600A8FD3C75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B605FD4E667C3F7022A8EC0E33F97CBF;
+			remoteInfo = "youtube-ios-player-helper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015FA41BAECC10D54D3AA7F57B45B578 /* MPOFace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOFace.m; path = Pod/Classes/MPOFace.m; sourceTree = "<group>"; };
+		01CD0C12C6E402B16419DDBB37D49524 /* MPOOcclusion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOOcclusion.m; path = Pod/Classes/MPOOcclusion.m; sourceTree = "<group>"; };
+		02506EB4F76CBF70A8027A0CE8B192AB /* Pods-selfie_MusicTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-selfie_MusicTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0259FEBE39C2A878D04A8BBBE0B26EE2 /* libyoutube-ios-player-helper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libyoutube-ios-player-helper.a"; path = "libyoutube-ios-player-helper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0293513648503E24A06194126749FCD1 /* MPOBlur.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOBlur.m; path = Pod/Classes/MPOBlur.m; sourceTree = "<group>"; };
+		05A0C11157B9995A9C0130A4F697D4FB /* MPOVerifyResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOVerifyResult.m; path = Pod/Classes/MPOVerifyResult.m; sourceTree = "<group>"; };
+		0B556B1943320274EEA5FED6B1B5AEE3 /* MPOHair.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOHair.m; path = Pod/Classes/MPOHair.m; sourceTree = "<group>"; };
+		0F84C19D9267D084BA12F7A4FD80E0D7 /* Pods-selfie_Music-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-selfie_Music-acknowledgements.markdown"; sourceTree = "<group>"; };
+		10787DA77269EA815717648BEE5F92DF /* libProjectOxfordFace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libProjectOxfordFace.a; path = libProjectOxfordFace.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		128FC6DB38ED1C8B6FF9331299D4EAA9 /* MPOMakeup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOMakeup.m; path = Pod/Classes/MPOMakeup.m; sourceTree = "<group>"; };
+		15B7877148BBEB39834FAC9037AF24D8 /* MPOCandidate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOCandidate.m; path = Pod/Classes/MPOCandidate.m; sourceTree = "<group>"; };
+		1BB7599EDF40776E38C7F1677B72C753 /* MPOGroupResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOGroupResult.h; path = Pod/Classes/MPOGroupResult.h; sourceTree = "<group>"; };
+		1ECBB425AB4BE24DE3832262E6CD3970 /* MPOAddPersistedFaceResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOAddPersistedFaceResult.h; path = Pod/Classes/MPOAddPersistedFaceResult.h; sourceTree = "<group>"; };
+		213866A173744B6D12F6B0A4ABBACAC2 /* MPOPerson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOPerson.h; path = Pod/Classes/MPOPerson.h; sourceTree = "<group>"; };
+		234730E41C335FD3CAC723B8824CFD53 /* MPOSimilarFace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOSimilarFace.m; path = Pod/Classes/MPOSimilarFace.m; sourceTree = "<group>"; };
+		25DFBAD6B23605631683177423965DDA /* Pods-selfie_MusicUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-selfie_MusicUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		27BCD6A68BB2A23DE8F0118692215BFA /* MPOExposure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOExposure.m; path = Pod/Classes/MPOExposure.m; sourceTree = "<group>"; };
+		2B2839AAB74C58531EE71B4ACC500AA9 /* Assets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Assets.bundle; path = "youtube-ios-player-helper/Assets.bundle"; sourceTree = "<group>"; };
+		2E8123810BEC4AF6ED20D7FA6A9DDA50 /* Pods-selfie_Music-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-selfie_Music-frameworks.sh"; sourceTree = "<group>"; };
+		305D368F246E91F5352292159E92E4CF /* MPOPersonFace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOPersonFace.m; path = Pod/Classes/MPOPersonFace.m; sourceTree = "<group>"; };
+		308204F5D5187B07171BF6DB11B292E8 /* MPOFaceAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOFaceAttributes.m; path = Pod/Classes/MPOFaceAttributes.m; sourceTree = "<group>"; };
+		30D828700087E2A29C3D40BF5751A337 /* Pods-selfie_MusicTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-selfie_MusicTests-dummy.m"; sourceTree = "<group>"; };
+		3308F041C3C5A7DD540616E6C02EE49C /* Pods-selfie_MusicTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-selfie_MusicTests-resources.sh"; sourceTree = "<group>"; };
+		35D1FD7AC93195866C1E53F60F3A31E8 /* MPOVerifyResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOVerifyResult.h; path = Pod/Classes/MPOVerifyResult.h; sourceTree = "<group>"; };
+		3CC8A8D24EF34FA28AEAA84FFA109C3D /* MPOPerson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOPerson.m; path = Pod/Classes/MPOPerson.m; sourceTree = "<group>"; };
+		3D6CC012B33B98367D9E6294CB5F6249 /* MPOFaceHeadPose.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOFaceHeadPose.m; path = Pod/Classes/MPOFaceHeadPose.m; sourceTree = "<group>"; };
+		3DEECAA5507502DCF1433E3464270999 /* MPOFaceFeatureCoordinate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOFaceFeatureCoordinate.h; path = Pod/Classes/MPOFaceFeatureCoordinate.h; sourceTree = "<group>"; };
+		3FC5B7FD38A4355A852421CC75B51496 /* MPOAddPersistedFaceResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOAddPersistedFaceResult.m; path = Pod/Classes/MPOAddPersistedFaceResult.m; sourceTree = "<group>"; };
+		459C6643D05216BF74F153BBA7C9C6EF /* MPOIdentifyResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOIdentifyResult.h; path = Pod/Classes/MPOIdentifyResult.h; sourceTree = "<group>"; };
+		476A6D8B8FE260295917A6CDD3AFB704 /* Pods-selfie_MusicTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-selfie_MusicTests-frameworks.sh"; sourceTree = "<group>"; };
+		4AAD2769EF2F7C075979C72DAFBFEBF1 /* MPOFaceAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOFaceAttributes.h; path = Pod/Classes/MPOFaceAttributes.h; sourceTree = "<group>"; };
+		4AE8F61DBEFF8CAEA74A18AC3AE7F1F7 /* MPOPersonGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOPersonGroup.h; path = Pod/Classes/MPOPersonGroup.h; sourceTree = "<group>"; };
+		4B006A42115573A4007524E870DE15D6 /* MPOCandidate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOCandidate.h; path = Pod/Classes/MPOCandidate.h; sourceTree = "<group>"; };
+		5338D3A6C3D7CF650338982BE07C9FD4 /* libPods-selfie_MusicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-selfie_MusicTests.a"; path = "libPods-selfie_MusicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		562447A9ED3408E0D81A367F543E5D05 /* MPOFaceLandmarks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOFaceLandmarks.h; path = Pod/Classes/MPOFaceLandmarks.h; sourceTree = "<group>"; };
+		56FAC398EAEF3149810F967C98110BDE /* MPOOcclusion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOOcclusion.h; path = Pod/Classes/MPOOcclusion.h; sourceTree = "<group>"; };
+		57F52581874B650CC4CA67419B2102CB /* YTPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTPlayerView.h; path = Classes/YTPlayerView.h; sourceTree = "<group>"; };
+		59D5A3D998B287D0A8B903B7B8FB0714 /* MPOAccessories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOAccessories.h; path = Pod/Classes/MPOAccessories.h; sourceTree = "<group>"; };
+		5D52D105C4C8DD2D84EA40C99FCB915A /* MPOMakeup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOMakeup.h; path = Pod/Classes/MPOMakeup.h; sourceTree = "<group>"; };
+		5EFDEA70A39824E96ACE7D18822CD05B /* MPOFacialHair.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOFacialHair.m; path = Pod/Classes/MPOFacialHair.m; sourceTree = "<group>"; };
+		61BF2BB4D7849BF9DEAA5374289F1B44 /* MPOFaceList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOFaceList.h; path = Pod/Classes/MPOFaceList.h; sourceTree = "<group>"; };
+		6212F1789FAD1F14E76AEFCB25FA3E82 /* ProjectOxfordFace.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProjectOxfordFace.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69D46E9AE5FA3D4626348EF20CAD9F46 /* Pods-selfie_MusicUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-selfie_MusicUITests-dummy.m"; sourceTree = "<group>"; };
+		719CDBB85744F75AFF23031566E99881 /* Pods-selfie_MusicUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-selfie_MusicUITests-resources.sh"; sourceTree = "<group>"; };
+		7C5FD4C924B0E50DDCA23ED9B33EEE69 /* MPOAccessories.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOAccessories.m; path = Pod/Classes/MPOAccessories.m; sourceTree = "<group>"; };
+		81CDD84EB599F605F3F07747265EAD5E /* Pods-selfie_Music-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-selfie_Music-resources.sh"; sourceTree = "<group>"; };
+		8284414D5C9578199D20992A31A3792E /* MPOGroupResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOGroupResult.m; path = Pod/Classes/MPOGroupResult.m; sourceTree = "<group>"; };
+		82B83CB2CD720488B8641F5B390F34D7 /* MPOFacialHair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOFacialHair.h; path = Pod/Classes/MPOFacialHair.h; sourceTree = "<group>"; };
+		8C0C5D38B694CB998573E6C7B4D8AE21 /* YTPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTPlayerView.m; path = Classes/YTPlayerView.m; sourceTree = "<group>"; };
+		8CE668A6C7BC52518C4AB0118F5A56AF /* Pods-selfie_Music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-selfie_Music.debug.xcconfig"; sourceTree = "<group>"; };
+		8F32D0048DBA8B7D080ACCBEEA8C2968 /* MPOFaceRectangle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOFaceRectangle.h; path = Pod/Classes/MPOFaceRectangle.h; sourceTree = "<group>"; };
+		9225D3CB3EBCF2DFD16AC447BB0ECBEA /* MPOCreatePersonResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOCreatePersonResult.m; path = Pod/Classes/MPOCreatePersonResult.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96C54EF849EB5BD1DC8B82E63C2F64BA /* MPOFaceRectangle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOFaceRectangle.m; path = Pod/Classes/MPOFaceRectangle.m; sourceTree = "<group>"; };
+		9747907C9E385E67FDD34ABD759F3400 /* MPOTrainingStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOTrainingStatus.m; path = Pod/Classes/MPOTrainingStatus.m; sourceTree = "<group>"; };
+		976173ECC6FBC3B66BB4EB8D177B74E0 /* MPOFace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOFace.h; path = Pod/Classes/MPOFace.h; sourceTree = "<group>"; };
+		9E173E19A787968564317E58EC831DD3 /* MPOFaceServiceClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOFaceServiceClient.h; path = Pod/Classes/MPOFaceServiceClient.h; sourceTree = "<group>"; };
+		9E5D4A3819CFBEF42154D3C7E1CDB7C6 /* MPOFaceMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOFaceMetadata.m; path = Pod/Classes/MPOFaceMetadata.m; sourceTree = "<group>"; };
+		9FACF2C460BEAA833701F134A248FCFE /* youtube-ios-player-helper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "youtube-ios-player-helper.xcconfig"; sourceTree = "<group>"; };
+		A52B5F55BD23326E9FB67A0A791D0499 /* Pods-selfie_MusicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-selfie_MusicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A566B59B1B6116AC8466DA97F8B584C2 /* MPOFaceLandmarks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOFaceLandmarks.m; path = Pod/Classes/MPOFaceLandmarks.m; sourceTree = "<group>"; };
+		AEB1D4F7213955034393F3C527E508B4 /* MPOCreatePersonResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOCreatePersonResult.h; path = Pod/Classes/MPOCreatePersonResult.h; sourceTree = "<group>"; };
+		AFAF9FF7051C18DA180D7EB225DDE7D1 /* Pods-selfie_Music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-selfie_Music.release.xcconfig"; sourceTree = "<group>"; };
+		B096A8844742B8BF2CF56847C198B88D /* libPods-selfie_Music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-selfie_Music.a"; path = "libPods-selfie_Music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10CA23A01D7127577B19654DA733341 /* MPOFaceListMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOFaceListMetadata.h; path = Pod/Classes/MPOFaceListMetadata.h; sourceTree = "<group>"; };
+		B2337308321C097D394745E6B020A0EF /* Pods-selfie_MusicUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-selfie_MusicUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B25DD2E5455763A238764630029D1394 /* MPOBlur.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOBlur.h; path = Pod/Classes/MPOBlur.h; sourceTree = "<group>"; };
+		B78439A60149220672F07B0D8308A028 /* Pods-selfie_MusicUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-selfie_MusicUITests-frameworks.sh"; sourceTree = "<group>"; };
+		BD5C5DC98025D45F8C67350E87793FB0 /* ProjectOxfordFace-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProjectOxfordFace-prefix.pch"; sourceTree = "<group>"; };
+		BFFE77A1875CF2DD507921F3C79D2086 /* MPOSimilarFace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOSimilarFace.h; path = Pod/Classes/MPOSimilarFace.h; sourceTree = "<group>"; };
+		C1E77A5C9D2E3FA3D1AACDB8A5961C85 /* MPOFaceEmotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOFaceEmotion.h; path = Pod/Classes/MPOFaceEmotion.h; sourceTree = "<group>"; };
+		C332019658C61488D374689208ACC1EE /* MPONoise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPONoise.h; path = Pod/Classes/MPONoise.h; sourceTree = "<group>"; };
+		C661E44C67A4EC16CE7FD0E7427ABD4A /* MPONoise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPONoise.m; path = Pod/Classes/MPONoise.m; sourceTree = "<group>"; };
+		C807DD515556BE462E47B3959C13E85A /* Pods-selfie_MusicTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-selfie_MusicTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C87179F528AC2F2B95B60A5F63F0FF81 /* Pods-selfie_Music-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-selfie_Music-dummy.m"; sourceTree = "<group>"; };
+		CE2871C41F8ED33036C64C6642C0D875 /* MPOFaceHeadPose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOFaceHeadPose.h; path = Pod/Classes/MPOFaceHeadPose.h; sourceTree = "<group>"; };
+		D0D49F85FA5C8F15AB5D51E0682AE0BF /* youtube-ios-player-helper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "youtube-ios-player-helper-prefix.pch"; sourceTree = "<group>"; };
+		D1B9C36A4129D8B3EEDD987D994BC143 /* MPOIdentifyResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOIdentifyResult.m; path = Pod/Classes/MPOIdentifyResult.m; sourceTree = "<group>"; };
+		D5477CD13E1818C3C696014DF484FEDE /* ProjectOxfordFace-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ProjectOxfordFace-dummy.m"; sourceTree = "<group>"; };
+		D55865D5F8B64CDA4428FD10B8E46048 /* Pods-selfie_MusicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-selfie_MusicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6123EFB6F44107FBDB283C13E6FEBDF /* MPOFaceEmotion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOFaceEmotion.m; path = Pod/Classes/MPOFaceEmotion.m; sourceTree = "<group>"; };
+		D7AF53CE859A6255378CDE661D4E3A75 /* Pods-selfie_Music-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-selfie_Music-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBC87329F995FAF583ADA56BE0FD12DB /* MPOPersonFace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOPersonFace.h; path = Pod/Classes/MPOPersonFace.h; sourceTree = "<group>"; };
+		E27F1BCB208C39E001C6B82B0BE3D4C1 /* MPOFaceListMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOFaceListMetadata.m; path = Pod/Classes/MPOFaceListMetadata.m; sourceTree = "<group>"; };
+		E38ED8BCC7A35FDE8E5CB70DC99F3ACD /* MPOExposure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOExposure.h; path = Pod/Classes/MPOExposure.h; sourceTree = "<group>"; };
+		E6A4B2C5E1DE67327DF8538DCA36C2A6 /* MPOFaceSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOFaceSDK.h; path = Pod/Classes/MPOFaceSDK.h; sourceTree = "<group>"; };
+		E6D2A3B091FC4E19D88E1A8954D2E019 /* youtube-ios-player-helper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "youtube-ios-player-helper-dummy.m"; sourceTree = "<group>"; };
+		E6FB0E14613DCB55CB0BE46EF9CFD7EC /* MPOFaceList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOFaceList.m; path = Pod/Classes/MPOFaceList.m; sourceTree = "<group>"; };
+		EB6B5F2141371AD10DA7BA3754FC6A99 /* MPOPersonGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOPersonGroup.m; path = Pod/Classes/MPOPersonGroup.m; sourceTree = "<group>"; };
+		F1616875E168A8CAFAE44E6D94A6B05C /* MPOFaceFeatureCoordinate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOFaceFeatureCoordinate.m; path = Pod/Classes/MPOFaceFeatureCoordinate.m; sourceTree = "<group>"; };
+		F4D42A1ADB1FDC0108D033B3503AD7E7 /* libPods-selfie_MusicUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-selfie_MusicUITests.a"; path = "libPods-selfie_MusicUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C71069E9CCBFAB73F576706FDC7295 /* MPOFaceMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOFaceMetadata.h; path = Pod/Classes/MPOFaceMetadata.h; sourceTree = "<group>"; };
+		F7858DF8A986D4461EB57A63A9F0260F /* MPOFaceServiceClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPOFaceServiceClient.m; path = Pod/Classes/MPOFaceServiceClient.m; sourceTree = "<group>"; };
+		F9103C01209443163D7F0ADC09661D28 /* MPOHair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOHair.h; path = Pod/Classes/MPOHair.h; sourceTree = "<group>"; };
+		FA9DF746CDC80D75E03D07750AF08A40 /* MPOTrainingStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOTrainingStatus.h; path = Pod/Classes/MPOTrainingStatus.h; sourceTree = "<group>"; };
+		FD17ED179702F58C41B6C19335A46097 /* Pods-selfie_MusicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-selfie_MusicTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE72EC96E517F13D233D0EB60064E158 /* Pods-selfie_MusicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-selfie_MusicUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15D3BF9CCEBEE5D517733F5FC66C3508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF205DD54A1E95216AA6458103B3FD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482A0C0A8D8E14FC902C824A86BD4339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6365C5F37EC22ADF3B738CD7B6822AA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51F02CC011B72299B7067D6A26345C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED0176A08BCB672CD8373A072F5BB06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E120547F538B3BF74884AD2F1A9DDBC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE22482BD9580013C2469431480C623C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB485A3E64A44E4C41CA585EB7FC074F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185DB6CA8F184DB6CFDD0127FC08429F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15EF5ADBCE046B291F743EFF8CBF3237 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B2839AAB74C58531EE71B4ACC500AA9 /* Assets.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1A7D2F4BD73F9E1F5FA029CB2E849D3D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6212F1789FAD1F14E76AEFCB25FA3E82 /* ProjectOxfordFace.xcconfig */,
+				D5477CD13E1818C3C696014DF484FEDE /* ProjectOxfordFace-dummy.m */,
+				BD5C5DC98025D45F8C67350E87793FB0 /* ProjectOxfordFace-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ProjectOxfordFace";
+			sourceTree = "<group>";
+		};
+		248FC2FC12793C7EB8827FEACD804C14 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F578E3DD73B19C9EDE0CF736931A600 /* Pods-selfie_Music */,
+				689FAABA405D19AA1D9523FA494706CB /* Pods-selfie_MusicTests */,
+				5611B3D9DD5A8C7EE1A046377ACEFFD9 /* Pods-selfie_MusicUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		259117CF26DF2A503C91CB47E7F9F901 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				845D9C157A0CEFAFBAE0370D234917F6 /* ProjectOxfordFace */,
+				9B954B0A02109E5D5BB45E33758B04AD /* youtube-ios-player-helper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5611B3D9DD5A8C7EE1A046377ACEFFD9 /* Pods-selfie_MusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2337308321C097D394745E6B020A0EF /* Pods-selfie_MusicUITests-acknowledgements.markdown */,
+				25DFBAD6B23605631683177423965DDA /* Pods-selfie_MusicUITests-acknowledgements.plist */,
+				69D46E9AE5FA3D4626348EF20CAD9F46 /* Pods-selfie_MusicUITests-dummy.m */,
+				B78439A60149220672F07B0D8308A028 /* Pods-selfie_MusicUITests-frameworks.sh */,
+				719CDBB85744F75AFF23031566E99881 /* Pods-selfie_MusicUITests-resources.sh */,
+				A52B5F55BD23326E9FB67A0A791D0499 /* Pods-selfie_MusicUITests.debug.xcconfig */,
+				FE72EC96E517F13D233D0EB60064E158 /* Pods-selfie_MusicUITests.release.xcconfig */,
+			);
+			name = "Pods-selfie_MusicUITests";
+			path = "Target Support Files/Pods-selfie_MusicUITests";
+			sourceTree = "<group>";
+		};
+		689FAABA405D19AA1D9523FA494706CB /* Pods-selfie_MusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				02506EB4F76CBF70A8027A0CE8B192AB /* Pods-selfie_MusicTests-acknowledgements.markdown */,
+				C807DD515556BE462E47B3959C13E85A /* Pods-selfie_MusicTests-acknowledgements.plist */,
+				30D828700087E2A29C3D40BF5751A337 /* Pods-selfie_MusicTests-dummy.m */,
+				476A6D8B8FE260295917A6CDD3AFB704 /* Pods-selfie_MusicTests-frameworks.sh */,
+				3308F041C3C5A7DD540616E6C02EE49C /* Pods-selfie_MusicTests-resources.sh */,
+				D55865D5F8B64CDA4428FD10B8E46048 /* Pods-selfie_MusicTests.debug.xcconfig */,
+				FD17ED179702F58C41B6C19335A46097 /* Pods-selfie_MusicTests.release.xcconfig */,
+			);
+			name = "Pods-selfie_MusicTests";
+			path = "Target Support Files/Pods-selfie_MusicTests";
+			sourceTree = "<group>";
+		};
+		6F578E3DD73B19C9EDE0CF736931A600 /* Pods-selfie_Music */ = {
+			isa = PBXGroup;
+			children = (
+				0F84C19D9267D084BA12F7A4FD80E0D7 /* Pods-selfie_Music-acknowledgements.markdown */,
+				D7AF53CE859A6255378CDE661D4E3A75 /* Pods-selfie_Music-acknowledgements.plist */,
+				C87179F528AC2F2B95B60A5F63F0FF81 /* Pods-selfie_Music-dummy.m */,
+				2E8123810BEC4AF6ED20D7FA6A9DDA50 /* Pods-selfie_Music-frameworks.sh */,
+				81CDD84EB599F605F3F07747265EAD5E /* Pods-selfie_Music-resources.sh */,
+				8CE668A6C7BC52518C4AB0118F5A56AF /* Pods-selfie_Music.debug.xcconfig */,
+				AFAF9FF7051C18DA180D7EB225DDE7D1 /* Pods-selfie_Music.release.xcconfig */,
+			);
+			name = "Pods-selfie_Music";
+			path = "Target Support Files/Pods-selfie_Music";
+			sourceTree = "<group>";
+		};
+		7384A06837309D18BA94E65A618FD8E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B096A8844742B8BF2CF56847C198B88D /* libPods-selfie_Music.a */,
+				5338D3A6C3D7CF650338982BE07C9FD4 /* libPods-selfie_MusicTests.a */,
+				F4D42A1ADB1FDC0108D033B3503AD7E7 /* libPods-selfie_MusicUITests.a */,
+				10787DA77269EA815717648BEE5F92DF /* libProjectOxfordFace.a */,
+				0259FEBE39C2A878D04A8BBBE0B26EE2 /* libyoutube-ios-player-helper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				259117CF26DF2A503C91CB47E7F9F901 /* Pods */,
+				7384A06837309D18BA94E65A618FD8E1 /* Products */,
+				248FC2FC12793C7EB8827FEACD804C14 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		845D9C157A0CEFAFBAE0370D234917F6 /* ProjectOxfordFace */ = {
+			isa = PBXGroup;
+			children = (
+				59D5A3D998B287D0A8B903B7B8FB0714 /* MPOAccessories.h */,
+				7C5FD4C924B0E50DDCA23ED9B33EEE69 /* MPOAccessories.m */,
+				1ECBB425AB4BE24DE3832262E6CD3970 /* MPOAddPersistedFaceResult.h */,
+				3FC5B7FD38A4355A852421CC75B51496 /* MPOAddPersistedFaceResult.m */,
+				B25DD2E5455763A238764630029D1394 /* MPOBlur.h */,
+				0293513648503E24A06194126749FCD1 /* MPOBlur.m */,
+				4B006A42115573A4007524E870DE15D6 /* MPOCandidate.h */,
+				15B7877148BBEB39834FAC9037AF24D8 /* MPOCandidate.m */,
+				AEB1D4F7213955034393F3C527E508B4 /* MPOCreatePersonResult.h */,
+				9225D3CB3EBCF2DFD16AC447BB0ECBEA /* MPOCreatePersonResult.m */,
+				E38ED8BCC7A35FDE8E5CB70DC99F3ACD /* MPOExposure.h */,
+				27BCD6A68BB2A23DE8F0118692215BFA /* MPOExposure.m */,
+				976173ECC6FBC3B66BB4EB8D177B74E0 /* MPOFace.h */,
+				015FA41BAECC10D54D3AA7F57B45B578 /* MPOFace.m */,
+				4AAD2769EF2F7C075979C72DAFBFEBF1 /* MPOFaceAttributes.h */,
+				308204F5D5187B07171BF6DB11B292E8 /* MPOFaceAttributes.m */,
+				C1E77A5C9D2E3FA3D1AACDB8A5961C85 /* MPOFaceEmotion.h */,
+				D6123EFB6F44107FBDB283C13E6FEBDF /* MPOFaceEmotion.m */,
+				3DEECAA5507502DCF1433E3464270999 /* MPOFaceFeatureCoordinate.h */,
+				F1616875E168A8CAFAE44E6D94A6B05C /* MPOFaceFeatureCoordinate.m */,
+				CE2871C41F8ED33036C64C6642C0D875 /* MPOFaceHeadPose.h */,
+				3D6CC012B33B98367D9E6294CB5F6249 /* MPOFaceHeadPose.m */,
+				562447A9ED3408E0D81A367F543E5D05 /* MPOFaceLandmarks.h */,
+				A566B59B1B6116AC8466DA97F8B584C2 /* MPOFaceLandmarks.m */,
+				61BF2BB4D7849BF9DEAA5374289F1B44 /* MPOFaceList.h */,
+				E6FB0E14613DCB55CB0BE46EF9CFD7EC /* MPOFaceList.m */,
+				B10CA23A01D7127577B19654DA733341 /* MPOFaceListMetadata.h */,
+				E27F1BCB208C39E001C6B82B0BE3D4C1 /* MPOFaceListMetadata.m */,
+				F6C71069E9CCBFAB73F576706FDC7295 /* MPOFaceMetadata.h */,
+				9E5D4A3819CFBEF42154D3C7E1CDB7C6 /* MPOFaceMetadata.m */,
+				8F32D0048DBA8B7D080ACCBEEA8C2968 /* MPOFaceRectangle.h */,
+				96C54EF849EB5BD1DC8B82E63C2F64BA /* MPOFaceRectangle.m */,
+				E6A4B2C5E1DE67327DF8538DCA36C2A6 /* MPOFaceSDK.h */,
+				9E173E19A787968564317E58EC831DD3 /* MPOFaceServiceClient.h */,
+				F7858DF8A986D4461EB57A63A9F0260F /* MPOFaceServiceClient.m */,
+				82B83CB2CD720488B8641F5B390F34D7 /* MPOFacialHair.h */,
+				5EFDEA70A39824E96ACE7D18822CD05B /* MPOFacialHair.m */,
+				1BB7599EDF40776E38C7F1677B72C753 /* MPOGroupResult.h */,
+				8284414D5C9578199D20992A31A3792E /* MPOGroupResult.m */,
+				F9103C01209443163D7F0ADC09661D28 /* MPOHair.h */,
+				0B556B1943320274EEA5FED6B1B5AEE3 /* MPOHair.m */,
+				459C6643D05216BF74F153BBA7C9C6EF /* MPOIdentifyResult.h */,
+				D1B9C36A4129D8B3EEDD987D994BC143 /* MPOIdentifyResult.m */,
+				5D52D105C4C8DD2D84EA40C99FCB915A /* MPOMakeup.h */,
+				128FC6DB38ED1C8B6FF9331299D4EAA9 /* MPOMakeup.m */,
+				C332019658C61488D374689208ACC1EE /* MPONoise.h */,
+				C661E44C67A4EC16CE7FD0E7427ABD4A /* MPONoise.m */,
+				56FAC398EAEF3149810F967C98110BDE /* MPOOcclusion.h */,
+				01CD0C12C6E402B16419DDBB37D49524 /* MPOOcclusion.m */,
+				213866A173744B6D12F6B0A4ABBACAC2 /* MPOPerson.h */,
+				3CC8A8D24EF34FA28AEAA84FFA109C3D /* MPOPerson.m */,
+				DBC87329F995FAF583ADA56BE0FD12DB /* MPOPersonFace.h */,
+				305D368F246E91F5352292159E92E4CF /* MPOPersonFace.m */,
+				4AE8F61DBEFF8CAEA74A18AC3AE7F1F7 /* MPOPersonGroup.h */,
+				EB6B5F2141371AD10DA7BA3754FC6A99 /* MPOPersonGroup.m */,
+				BFFE77A1875CF2DD507921F3C79D2086 /* MPOSimilarFace.h */,
+				234730E41C335FD3CAC723B8824CFD53 /* MPOSimilarFace.m */,
+				FA9DF746CDC80D75E03D07750AF08A40 /* MPOTrainingStatus.h */,
+				9747907C9E385E67FDD34ABD759F3400 /* MPOTrainingStatus.m */,
+				35D1FD7AC93195866C1E53F60F3A31E8 /* MPOVerifyResult.h */,
+				05A0C11157B9995A9C0130A4F697D4FB /* MPOVerifyResult.m */,
+				1A7D2F4BD73F9E1F5FA029CB2E849D3D /* Support Files */,
+			);
+			name = ProjectOxfordFace;
+			path = ProjectOxfordFace;
+			sourceTree = "<group>";
+		};
+		94430C84F5BBB190481FEAF4EAC8C45D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FACF2C460BEAA833701F134A248FCFE /* youtube-ios-player-helper.xcconfig */,
+				E6D2A3B091FC4E19D88E1A8954D2E019 /* youtube-ios-player-helper-dummy.m */,
+				D0D49F85FA5C8F15AB5D51E0682AE0BF /* youtube-ios-player-helper-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		9B954B0A02109E5D5BB45E33758B04AD /* youtube-ios-player-helper */ = {
+			isa = PBXGroup;
+			children = (
+				57F52581874B650CC4CA67419B2102CB /* YTPlayerView.h */,
+				8C0C5D38B694CB998573E6C7B4D8AE21 /* YTPlayerView.m */,
+				15EF5ADBCE046B291F743EFF8CBF3237 /* Resources */,
+				94430C84F5BBB190481FEAF4EAC8C45D /* Support Files */,
+			);
+			name = "youtube-ios-player-helper";
+			path = "youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2164D5140024078945A5BD66973478EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A79E0F2F403ECDA980314AA24D3D7A6 /* MPOAccessories.h in Headers */,
+				E44944AE7793D883EF4EF2FC6AD7B406 /* MPOAddPersistedFaceResult.h in Headers */,
+				4851F5D0B9BBB5714322498F9732858C /* MPOBlur.h in Headers */,
+				50142D6ED15719A135A74D96712C10D1 /* MPOCandidate.h in Headers */,
+				30D7438560542440C96B807821B97CFB /* MPOCreatePersonResult.h in Headers */,
+				97795713D169A504FFFC540C43D2A71E /* MPOExposure.h in Headers */,
+				DAE04DF187874EFFFF1E4EEE4C484878 /* MPOFace.h in Headers */,
+				23076935402AE4FD73BCF944708988DE /* MPOFaceAttributes.h in Headers */,
+				415CDE423D4B65FA8843247AA814D052 /* MPOFaceEmotion.h in Headers */,
+				8C23779BE5425DC0810CE75FD50DD4B9 /* MPOFaceFeatureCoordinate.h in Headers */,
+				3860F599D1DEEC237C45A675FD535CAE /* MPOFaceHeadPose.h in Headers */,
+				4EF143084C8EBF8E76E13D8A0AAC1672 /* MPOFaceLandmarks.h in Headers */,
+				A260B45A87422953FC0866EC947F99FF /* MPOFaceList.h in Headers */,
+				C3220B52C397B51452616829EA76F9E9 /* MPOFaceListMetadata.h in Headers */,
+				258A7FF4B7A88406A65ABC5B04580103 /* MPOFaceMetadata.h in Headers */,
+				F9013BF6C49B0D7D780525822BF5D204 /* MPOFaceRectangle.h in Headers */,
+				AA1C2E7583E3FAEF57200990E6F32BEE /* MPOFaceSDK.h in Headers */,
+				352D3425C382C5B5FBB1A25FBD136EA9 /* MPOFaceServiceClient.h in Headers */,
+				60B0397A24916B10CF2972290A1BACC9 /* MPOFacialHair.h in Headers */,
+				92A2CE566A3514F899E4323286F00922 /* MPOGroupResult.h in Headers */,
+				4E8F0E0E8FA7E8D90C01EF88A2C072B0 /* MPOHair.h in Headers */,
+				8755955B920C3810D700354B6C9A28BC /* MPOIdentifyResult.h in Headers */,
+				053868D848F28C45AA905C9A3B5837DB /* MPOMakeup.h in Headers */,
+				793235A4311B6665015924BBD001CEDD /* MPONoise.h in Headers */,
+				C7A64A7C7C90FE5FB84A1B5F3BAEAF83 /* MPOOcclusion.h in Headers */,
+				403FDF9E069BF968FD785DEBCE9C6B04 /* MPOPerson.h in Headers */,
+				F2EE8874A6A6B9F9B11A58D2786C59FC /* MPOPersonFace.h in Headers */,
+				03477B80E9FD62EFF63570D77EDCE396 /* MPOPersonGroup.h in Headers */,
+				45F2ADB807AE843D6761C27B8AFB9BDF /* MPOSimilarFace.h in Headers */,
+				EB71520D8FBBB14DE1530CE2D0636708 /* MPOTrainingStatus.h in Headers */,
+				3EE5C43141B336DD781A2DA01987EEF6 /* MPOVerifyResult.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6515B2890E26760C4D52FF07B0D2518 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C487D189FBD1990E6D45C51EB6E2E63 /* YTPlayerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46F735765A3A6849FF8F67783E61756E /* ProjectOxfordFace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45732130EECBA56ADE634C3FBCDD4C63 /* Build configuration list for PBXNativeTarget "ProjectOxfordFace" */;
+			buildPhases = (
+				896F653C2113DF3A844A83ABE9CE9B3A /* Sources */,
+				51F02CC011B72299B7067D6A26345C0B /* Frameworks */,
+				2164D5140024078945A5BD66973478EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectOxfordFace;
+			productName = ProjectOxfordFace;
+			productReference = 10787DA77269EA815717648BEE5F92DF /* libProjectOxfordFace.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A209C4714CAC94145C0ABF57BD57E9C0 /* Pods-selfie_Music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C62ADBDB65BA3802325F4B7CB02FFC /* Build configuration list for PBXNativeTarget "Pods-selfie_Music" */;
+			buildPhases = (
+				2E52F7212765DE17F7420DC29A5FA4F6 /* Sources */,
+				E120547F538B3BF74884AD2F1A9DDBC7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F92621844C5C51F6597BC433F32864D /* PBXTargetDependency */,
+				F8269DAE0CF87B812597343060EB418E /* PBXTargetDependency */,
+			);
+			name = "Pods-selfie_Music";
+			productName = "Pods-selfie_Music";
+			productReference = B096A8844742B8BF2CF56847C198B88D /* libPods-selfie_Music.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AF315B6838D5E14A5626ABC0AEDCF13E /* Pods-selfie_MusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F83ECC609183A0EC3B2054431092EA7 /* Build configuration list for PBXNativeTarget "Pods-selfie_MusicTests" */;
+			buildPhases = (
+				B1751824446185586CC61EFDB7C8EAEB /* Sources */,
+				15D3BF9CCEBEE5D517733F5FC66C3508 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-selfie_MusicTests";
+			productName = "Pods-selfie_MusicTests";
+			productReference = 5338D3A6C3D7CF650338982BE07C9FD4 /* libPods-selfie_MusicTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B605FD4E667C3F7022A8EC0E33F97CBF /* youtube-ios-player-helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A34EE0C8D7BB5C70C2B8ECE7F7999BE /* Build configuration list for PBXNativeTarget "youtube-ios-player-helper" */;
+			buildPhases = (
+				23EECF1E8E91B91AF908AAA52900CE94 /* Sources */,
+				482A0C0A8D8E14FC902C824A86BD4339 /* Frameworks */,
+				F6515B2890E26760C4D52FF07B0D2518 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "youtube-ios-player-helper";
+			productName = "youtube-ios-player-helper";
+			productReference = 0259FEBE39C2A878D04A8BBBE0B26EE2 /* libyoutube-ios-player-helper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F1044E31AA64AA79DE50C25C2B7812DC /* Pods-selfie_MusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6E8577B555CD00DF9EC5064DF281738 /* Build configuration list for PBXNativeTarget "Pods-selfie_MusicUITests" */;
+			buildPhases = (
+				4202023FA2706694A2B4668C53A5BD55 /* Sources */,
+				EB485A3E64A44E4C41CA585EB7FC074F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-selfie_MusicUITests";
+			productName = "Pods-selfie_MusicUITests";
+			productReference = F4D42A1ADB1FDC0108D033B3503AD7E7 /* libPods-selfie_MusicUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7384A06837309D18BA94E65A618FD8E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A209C4714CAC94145C0ABF57BD57E9C0 /* Pods-selfie_Music */,
+				AF315B6838D5E14A5626ABC0AEDCF13E /* Pods-selfie_MusicTests */,
+				F1044E31AA64AA79DE50C25C2B7812DC /* Pods-selfie_MusicUITests */,
+				46F735765A3A6849FF8F67783E61756E /* ProjectOxfordFace */,
+				B605FD4E667C3F7022A8EC0E33F97CBF /* youtube-ios-player-helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23EECF1E8E91B91AF908AAA52900CE94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF98AFBA12DAA46B9FA2B8498192ECD7 /* youtube-ios-player-helper-dummy.m in Sources */,
+				3ED2281D0F9375BE8B2F156207E4635A /* YTPlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E52F7212765DE17F7420DC29A5FA4F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20406EDA3E447446A799F695C629D8AB /* Pods-selfie_Music-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4202023FA2706694A2B4668C53A5BD55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4C52E5A7E7E2CFCB1F97D1D07B7D52 /* Pods-selfie_MusicUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896F653C2113DF3A844A83ABE9CE9B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4DEDA12F3308357646A1980F635F69 /* MPOAccessories.m in Sources */,
+				1EC4AF9C3C7096C516B9D5C45569527E /* MPOAddPersistedFaceResult.m in Sources */,
+				B8AC2BF95978353EA7F54CDBF9000F83 /* MPOBlur.m in Sources */,
+				12ED8E8D6695FFDDD7BF8E6BDAA6BFCD /* MPOCandidate.m in Sources */,
+				BE4BF5283EC255B07EF4BC7A25B3262B /* MPOCreatePersonResult.m in Sources */,
+				8DA566471DEF03594A769B7547C62DE7 /* MPOExposure.m in Sources */,
+				4C5394AEB53BCC36DC575D5E3D6AF569 /* MPOFace.m in Sources */,
+				C0C5DFE2B74DBC8DD7F9EF522028F93F /* MPOFaceAttributes.m in Sources */,
+				5E39296A43550F77246E72BA37609C84 /* MPOFaceEmotion.m in Sources */,
+				9ADBFA726CFCCABDE0187D980657579F /* MPOFaceFeatureCoordinate.m in Sources */,
+				5F30FC104555D8A9300E1CECEB502840 /* MPOFaceHeadPose.m in Sources */,
+				72482C5F892A74A88CD9B7B77E086B8F /* MPOFaceLandmarks.m in Sources */,
+				342E4163CC3A651302AA7891078A6C65 /* MPOFaceList.m in Sources */,
+				7AA7EF902918732CF51E08406F4A98AA /* MPOFaceListMetadata.m in Sources */,
+				422D42FCEAC096147AD5B1235832A66B /* MPOFaceMetadata.m in Sources */,
+				F341EF26DD8A944F2E683DF8789FA48F /* MPOFaceRectangle.m in Sources */,
+				B48CD686DC11F68CE133BF5834AA7AB0 /* MPOFaceServiceClient.m in Sources */,
+				69C8DA90FAE82C62ED3982B60E9A9F10 /* MPOFacialHair.m in Sources */,
+				E073E899A4A9E53F63F46BD427176C1B /* MPOGroupResult.m in Sources */,
+				653D2A12BAB9B0CA66302B39BD1564E4 /* MPOHair.m in Sources */,
+				4A307BF8710636C9756F04FA8490BA78 /* MPOIdentifyResult.m in Sources */,
+				2D80256FF5F0C5A7389C94A32BE740B3 /* MPOMakeup.m in Sources */,
+				521EAA3C4962BF21E11DB34AB3C70161 /* MPONoise.m in Sources */,
+				EBFC04C113DF249E345C7456F7D05848 /* MPOOcclusion.m in Sources */,
+				419EE4A2FB6926073163A3ECAAC12CBD /* MPOPerson.m in Sources */,
+				004CD3A6574BFA9AB3D0FC7773D8AF8E /* MPOPersonFace.m in Sources */,
+				7E5D46227B4FC3CAB23B1D4BD408D1B9 /* MPOPersonGroup.m in Sources */,
+				BC579DB98C254D9CB59AF340D11F0691 /* MPOSimilarFace.m in Sources */,
+				F5341CBD2B1E497DD8BE0754F6945ABE /* MPOTrainingStatus.m in Sources */,
+				C717CD81E881B34440D2D58408522F5F /* MPOVerifyResult.m in Sources */,
+				4239ACC66B68D7DE0E14E518AFB13196 /* ProjectOxfordFace-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1751824446185586CC61EFDB7C8EAEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65845AAF36A712AB27AF0BD571E6C11 /* Pods-selfie_MusicTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F92621844C5C51F6597BC433F32864D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ProjectOxfordFace;
+			target = 46F735765A3A6849FF8F67783E61756E /* ProjectOxfordFace */;
+			targetProxy = 9654F32306CA6E280B166BE48F2F71A6 /* PBXContainerItemProxy */;
+		};
+		F8269DAE0CF87B812597343060EB418E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "youtube-ios-player-helper";
+			target = B605FD4E667C3F7022A8EC0E33F97CBF /* youtube-ios-player-helper */;
+			targetProxy = B30F1D05EF252568D1FCA600A8FD3C75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FA25E038DE31F7E585A7B26F2494D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D55865D5F8B64CDA4428FD10B8E46048 /* Pods-selfie_MusicTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4DC6390FF66D9475A66CD3249D0A4810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFAF9FF7051C18DA180D7EB225DDE7D1 /* Pods-selfie_Music.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5CC52081F564B1532738EFD0DDB723C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE72EC96E517F13D233D0EB60064E158 /* Pods-selfie_MusicUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		643C76AA582046977B7877822ED7A258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		64993ED2631259C93A35787E6FE3C0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FACF2C460BEAA833701F134A248FCFE /* youtube-ios-player-helper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8FE526E88D9E182CBA7390F614E3B401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6212F1789FAD1F14E76AEFCB25FA3E82 /* ProjectOxfordFace.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ProjectOxfordFace/ProjectOxfordFace-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B99F3E916C5AADACA24046F0841C7756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD17ED179702F58C41B6C19335A46097 /* Pods-selfie_MusicTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BD823C84C2C1F721CB5F21F48A9EB2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6212F1789FAD1F14E76AEFCB25FA3E82 /* ProjectOxfordFace.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ProjectOxfordFace/ProjectOxfordFace-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D817477921275585ABFEDA18F96684AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FACF2C460BEAA833701F134A248FCFE /* youtube-ios-player-helper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E0DB6F7EF36872B6EA8DF55157371E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CE668A6C7BC52518C4AB0118F5A56AF /* Pods-selfie_Music.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EDE65D83EF5E4A02DAD708ED3B758A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A52B5F55BD23326E9FB67A0A791D0499 /* Pods-selfie_MusicUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13C62ADBDB65BA3802325F4B7CB02FFC /* Build configuration list for PBXNativeTarget "Pods-selfie_Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DB6F7EF36872B6EA8DF55157371E06 /* Debug */,
+				4DC6390FF66D9475A66CD3249D0A4810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A34EE0C8D7BB5C70C2B8ECE7F7999BE /* Build configuration list for PBXNativeTarget "youtube-ios-player-helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64993ED2631259C93A35787E6FE3C0EB /* Debug */,
+				D817477921275585ABFEDA18F96684AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643C76AA582046977B7877822ED7A258 /* Debug */,
+				C03B8870130C98D1B02B59D003687524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45732130EECBA56ADE634C3FBCDD4C63 /* Build configuration list for PBXNativeTarget "ProjectOxfordFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD823C84C2C1F721CB5F21F48A9EB2AC /* Debug */,
+				8FE526E88D9E182CBA7390F614E3B401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F83ECC609183A0EC3B2054431092EA7 /* Build configuration list for PBXNativeTarget "Pods-selfie_MusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA25E038DE31F7E585A7B26F2494D0E /* Debug */,
+				B99F3E916C5AADACA24046F0841C7756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6E8577B555CD00DF9EC5064DF281738 /* Build configuration list for PBXNativeTarget "Pods-selfie_MusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE65D83EF5E4A02DAD708ED3B758A0C /* Debug */,
+				5CC52081F564B1532738EFD0DDB723C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
